@@ -1,0 +1,16 @@
+{
+  "filepaths": {
+    "medQA_directory": "/n/data2/hms/dbmi/beamlab/anil/gptMedQA/data/original/MedQA/questions"
+  },
+  "model": "stableLM",
+  "medQA_num_choices": 4,
+  "batch_size": 1,
+  "self_consistency_number": 11,
+  "random_seed": 13,
+  "shuffle_answers": false,
+  "debug": false,
+  "debugFraction": 0.05,
+  "use_cot": false,
+  "q_string": "<|SYSTEM|>Answer the following question: \n<|USER|>",
+  "q_string_cot": "<|SYSTEM|> Answer the following question, explaining your reasoning step by step.: \n<|USER|> "
+}
